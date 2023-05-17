@@ -1,0 +1,115 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+
+
+h1 {
+
+
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 0;
+
+
+}
+
+
+.btn {
+
+    background: #333;
+    color: #fff;
+
+
+
+}
+
+
+.inner {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.topBanner {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    height: 100px;
+}
+
+.topBanner.on {
+    height: 0;
+    overflow: hidden;
+
+}
+
+
+.topBanner .inner {
+    position: relative;
+
+
+}
+
+.topBanner .inner i {
+    position: absolute;
+    top: -10px;
+    bottom: 0;
+
+
+}
+
+.topBanner .tit {
+
+    font-size: 30px;
+    font-weight: 500px;
+    margin: 0 0 10px 0;
+
+
+}
+
+.topBanner p {
+
+
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.topBanner .btn {
+
+    padding: 3px 20px 5px 20px;
+    margin: 0 0 0 15px;
+
+}
+
+.mainVisual .itm01 {
+    height: 600px;
+    background: url(../images/mainvisual01.jpg) no-repeat center center/cover
+}
+
+.mainVisual .itm02 {
+    height: 600px;
+    background: url(../images/mainvisual02.jpg) no-repeat center center/cover
+}
+
+.mainVisual .itm03 {
+    height: 600px;
+    background: url(../images/mainvisual03.jpg) no-repeat center center/cover
+}
+
+.mainVisual .slick-dots {
+
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.mainVisual .slick-dots li {
+
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+}
